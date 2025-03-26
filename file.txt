@@ -1,0 +1,5 @@
+Premier enregistrement apres la creation des parametres de config
+git init
+git config --gloabal user.email "ekobenan10@gmail.com"
+git config --gloabal user.name "wykyspride"
+new test
