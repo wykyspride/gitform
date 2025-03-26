@@ -1,5 +1,8 @@
-Premier enregistrement apres la creation des parametres de config
-git init
-git config --gloabal user.email "ekobenan10@gmail.com"
-git config --gloabal user.name "wykyspride"
-new test
+1 Premier enregistrement apres la creation des parametres de config
+    git init
+    git config --gloabal user.email "ekobenan10@gmail.com"
+    git config --gloabal user.name "wykyspride"
+    new test
+
+2 Creation d'un autre commit le commit n°2
+    Cela permet de verifier la liste des commits effectué afin de pouvoir les utiliser en cas de besoins
