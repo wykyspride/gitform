@@ -6,3 +6,5 @@
 
 2 Creation d'un autre commit le commit n°2
     Cela permet de verifier la liste des commits effectué afin de pouvoir les utiliser en cas de besoins
+
+3 Ajout de contenu à une nouvelle branche

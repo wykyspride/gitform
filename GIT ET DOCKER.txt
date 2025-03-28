@@ -1,0 +1,87 @@
+GIT...................................................................................
+Lien formation: https://www.youtube.com/watch?v=225wkShIcc8
+Lien formation: https://www.youtube.com/watch?v=gp_k0UVOYMw
+Lien de telechargement: https://git-scm.com/
+
+
+Commandes:
+
+1. Creation du projet dans git: utiliser le sit gibhub
+Importer le projet dans dans le dossier crée
+
+Configuration: 
+2. Creation du fichier de sauvegarde des taches:
+git init
+
+3. Configuration de l'utilisateur:
+git config --gloabal user.email "ekobenan10@gmail.com"
+git config --gloabal user.name "wykyspride"
+
+4. Sauvegarde des modifs effectuées sur un fichier
+git add nomfichier
+git commit -m "Commentaire" 
+
+5. Pour afficher toutes les sauvegarde commits qui ont été effectués
+git log
+
+6. Revenir sur un commit effectué
+git checkout id du commit
+
+7. Annuler des modifications et revenir sur le dernier commit effectué
+git checkout master -f
+
+8. Creation d'une nouvelle branche
+git branch nom_de_la_branche
+
+9. Afficher les branches
+git branch
+
+10. Selection d'une branche sur laquelle travailler
+git checkout nom_de_la_branche
+
+11. Fusion de branches après la fin de modifications
+	A. on active d'abord la branche qui doit recevoir l'autre branche
+	git checkout master
+	
+	B. On fait migrer la deuxieme branche sur la premiere
+	git merge nom_de_la_branche_a_faire_migrer
+
+12. Supprimer une branche après l'avoir merger ou pas
+git branch -d nom_de_la_branche_a_supprimer
+
+
+13. Revenir à commit precedent
+git reset --hard HEAD 
+
+ou 
+
+git revert id_du_commit
+
+
+
+....................................................................................................
+GESTIONS DES PROJETS DISTANTS
+....................................................................................................
+
+Prerequis: 
+- Compte github
+- Creation du projet local
+- installation de git sur sa machine locale
+- Modifier la branch master en main
+	git branch -m main
+- Transferer notre projet en ligne
+	git push -u origin main
+
+AJOUT D'UN NOUVEAU DEVELOPPEUR
+
+1. Demande de copie du projet en ligne sur notre machine locale
+
+	a. D'abord se placer dans le dossier local crée puis effectuer la commande: git init
+	b. Commande pour la demande de connexion: git remote add origin url_du_projet_en_sur_github
+	c. Verifier que nous sommes bien connectés en ligen
+		git remote
+
+2. Une fois l'accord autorisé, on peffectue la copie sur notre machine locale
+ git pull origin main
+
+DOCKER................................................................................
